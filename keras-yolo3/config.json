@@ -1,0 +1,40 @@
+{
+    "model" : {
+        "min_input_size":       352,
+        "max_input_size":       448,
+        "anchors":              [138,294, 232,315, 250,106, 276,213, 293,352, 381,280, 381,150, 385,213, 396,366],
+        "labels":               ["n01629819"]
+    },
+
+    "train": {
+        "train_image_folder":   "C:\\Users\\Trevor\\Documents\\GitHub\\train\\n01629819\\images\\",
+        "train_annot_folder":   "C:\\Users\\Trevor\\Documents\\GitHub\\train\\n01629819\\annotations\\",
+        "cache_name":           "n01629819_train.pkl",
+
+        "train_times":          3,
+        "batch_size":           4,
+        "learning_rate":        1e-4,
+        "nb_epochs":            100,
+        "warmup_epochs":        3,
+        "ignore_thresh":        0.5,
+        "gpus":                 "1",
+
+        "grid_scales":          [1,1,1],
+        "obj_scale":            5,
+        "noobj_scale":          1,
+        "xywh_scale":           1,
+        "class_scale":          1,
+
+        "tensorboard_dir":      "logs",
+        "saved_weights_name":   "n01629819.h5",
+        "debug":                true
+    },    
+    "valid": {
+        "valid_image_folder":   "C:\\Users\\Trevor\\Documents\\GitHub\\keras-yolo3\\validation\\images\\",
+        "valid_annot_folder":   "C:\\Users\\Trevor\\Documents\\GitHub\\keras-yolo3\\validation\\annots\\",
+        "cache_name":           "n01629819_val.pkl",
+  
+        "valid_times":          1
+    }
+
+}

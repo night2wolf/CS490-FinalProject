@@ -1,0 +1,1 @@
+$ bash create_validation_set.sh C:/Users/Trevor/Documents/GitHub/train/n01629819/images C:/Users/Trevor/Documents/GitHub/train/n01629819/annotations 120 C:/Users/Trevor/Documents/GitHub/keras-yolo3/validation
