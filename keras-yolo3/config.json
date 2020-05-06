@@ -1,8 +1,8 @@
 {
     "model" : {
-        "min_input_size":       352,
+        "min_input_size":       288,
         "max_input_size":       448,
-        "anchors":              [138,294, 232,315, 250,106, 276,213, 293,352, 381,280, 381,150, 385,213, 396,366],
+        "anchors":              [153,207, 154,363, 217,94, 272,230, 286,332, 359,141, 371,197, 389,259, 395,359],
         "labels":               ["n01629819"]
     },
 
@@ -30,8 +30,8 @@
         "debug":                true
     },    
     "valid": {
-        "valid_image_folder":   "C:\\Users\\Trevor\\Documents\\GitHub\\keras-yolo3\\validation\\images\\",
-        "valid_annot_folder":   "C:\\Users\\Trevor\\Documents\\GitHub\\keras-yolo3\\validation\\annots\\",
+        "valid_image_folder":   "C:\\Users\\Trevor\\Documents\\GitHub\\CS490-FinalProject\\keras-yolo3\\validation\\images\\",
+        "valid_annot_folder":   "C:\\Users\\Trevor\\Documents\\GitHub\\CS490-FinalProject\\keras-yolo3\\validation\\annots\\",
         "cache_name":           "n01629819_val.pkl",
   
         "valid_times":          1
